@@ -46,7 +46,7 @@ public class Solution {
 
     public static boolean isBalanced(Node node) {
         // your code goes here
-        if(node==null) return 0;
+        if(node==null) return true;
         Stack<StackElement> st = new Stack<>();
         st.push(new StackElement(node));
 
